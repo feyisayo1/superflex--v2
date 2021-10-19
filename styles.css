@@ -1299,7 +1299,7 @@ li{
 
 .active__card{
     /* filter: grayscale(67%); */
-    opacity: 0.5;
+    opacity: 0.5 !important;
 
 }
 
