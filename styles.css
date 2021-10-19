@@ -1291,9 +1291,9 @@ li{
 .main{
     opacity: 1 !important;
     /* filter: grayscale(0%) !important; */
-    transform: scale(1.1);
-    transition: 500ms linear;
-    transition: all ease-in 3s ease-out 3s;
+    transform: scale(1.1) !important;
+    transition: 500ms linear !important;
+    transition: all ease-in 3s ease-out 3s !important;
 
 }
 
