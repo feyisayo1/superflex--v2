@@ -1289,8 +1289,8 @@ li{
 } */
 
 .main{
-    opacity: 1 !important;
-    /* filter: grayscale(0%) !important; */
+    /*opacity: 1 !important;*/
+    filter: grayscale(0%) !important;
     transform: scale(1.1) !important;
     transition: 500ms linear !important;
     transition: all ease-in 3s ease-out 3s !important;
@@ -1298,8 +1298,8 @@ li{
 }
 
 .active__card{
-    /* filter: grayscale(67%); */
-    opacity: 0.5;
+    filter: grayscale(67%);
+    /*opacity: 0.5;*/
 
 }
 
