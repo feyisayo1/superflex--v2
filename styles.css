@@ -235,7 +235,8 @@ li{
 
 .nav__links a{
     font-family: 'SF Pro Text', sans-serif;
-    color: #F4F4F5;
+    /*color: #F4F4F5;*/
+    color:#011166;
     font-size: 14px;
     line-height: 21px;
     font-style: normal;
@@ -259,11 +260,14 @@ li{
 
 .wrapper{
     width: 100%;
+     top:0;
+    display: block;
+    transition: top 0.5s;
     /* margin: 0 auto; */
-    padding: 10px;
+    padding: 10px 0px;
     position: fixed;
     /* text-align: center; */
-    background: #000;
+    background: #fff;
     z-index: 1000;
 }
 
