@@ -376,6 +376,7 @@ li{
     width: 6%;
     position: fixed;
     transition: all 1s;    
+    bottom:0px;
 
 
 }
